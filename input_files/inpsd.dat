@@ -1,0 +1,38 @@
+simid test2d00
+ncell     100        100	       1  
+BC        P         P         0              
+cell      1.00000   0.00000   0.00000         
+          0.00000   1.00000   0.00000
+          0.00000   0.00000   1.00000
+NAtoms    1                               
+NTypes    1                              
+Sym       2                             
+
+posfile  ./posfile
+momfile  ./momfile
+exchange ./jfile
+anisotropy ./kfile
+dm ./dmfile
+
+restartfile ./restartfile.dat
+                                 
+SDEalgh 	1
+
+initmag   	4                                     
+
+temp      	0      	                    
+
+damping      	0.1  
+Nstep     	10000  
+timestep  	1E-12
+
+avrg_step       1
+do_tottraj 	Y                          
+tottraj_step   	10000
+
+do_prnstruct 	1
+
+plotenergy 	1
+
+#ntraj 1 	
+#1 1 1000
