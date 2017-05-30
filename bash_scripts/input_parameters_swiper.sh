@@ -1,5 +1,5 @@
 #DESCRIPTION:
-#This script modifies the input parameter values and run the UppASD for several values of the DM parameter and anisotropy. 
+#This script modifies the input parameter values and run the UppASD for several values of the DMI parameter and anisotropy. 
 #The final purpose is to compute a stability diagram (DM vs. anisotropy) for a given magnetic structure.
 
 #specify directory
