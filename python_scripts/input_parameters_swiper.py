@@ -1,7 +1,7 @@
 #DESCRIPTION:
 #This script is meant to be run by 'input_parameters_swiper.sh' script.
 #It stores the values of the final total energy and the DM parameter used during the simulation in a .dat file.
-#This file is different for different values of anisotropy
+#Such file name is different for different values of anisotropy.
 
 import numpy as np
 import matplotlib.pyplot as pl
