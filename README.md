@@ -1,2 +1,4 @@
-# UppASD_scripts
+# README
 This repository contains several scripts and data files meant to be used together with the UppASD software (v3.0) - see UppASD_manual.pdf for further details.
+
+Each folder in the repository contains a 'readme.txt' file that gives information about its content.
