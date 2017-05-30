@@ -2,7 +2,6 @@
 #This script modifies the input parameter values and run the UppASD for several values of the DM parameter and anisotropy. 
 #The final purpose is to compute a stability diagram (DM vs. anisotropy) for a given magnetic structure.
 
-
 #specify directory
 dir="/UppASD_scripts"
 
@@ -24,11 +23,11 @@ j=$(printf '%.9f' "$(echo "0.002127162"|bc -l)")
 #define input parameters------------------------------------------------
 n=100						#atoms per side
 damping=0.1					#damping parameter
-Nstep_1=2000				#number of time step first run
-Nstep_2=1000				#number of time steps following runs
+Nstep_1=2000					#number of time step first run
+Nstep_2=1000					#number of time steps following runs
 timestep=1 					#time step value (in picosecond)
-trottaj_step_1=$Nstep_1     #trottaj_step value first run
-trottaj_step_2=$Nstep_2     #trottaj_step value following runs
+trottaj_step_1=$Nstep_1    	 		#trottaj_step value first run
+trottaj_step_2=$Nstep_2     			#trottaj_step value following runs
 #-----------------------------------------------------------------------
 
 #modify input files ----------------------------------------------------
