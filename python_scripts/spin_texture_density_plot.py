@@ -3,7 +3,8 @@ import numpy as np
 import os
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-os.chdir('/UppASD/output_files')
+#change the working directory according to where the UppASD output files are located
+os.chdir('/UppASD/UppASD_output_files')
 
 data = np.loadtxt('moment.test2d00.out')
 data = data[:,2:5]
