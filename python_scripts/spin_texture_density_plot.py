@@ -1,15 +1,9 @@
-#Matteo, 12/09/16
-
-#script description (in short):
-#load spin texture and draw a density plot from it
-
 import pylab as plt
 import numpy as np
 import os
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-directory="/home/teo/Documents/Radboud/Sk_project_v1"
-os.chdir("%s/UppASD/2d_skyrmion" %(directory))
+os.chdir('/UppASD')
 
 
 data = np.loadtxt('moment.test2d00.out')
